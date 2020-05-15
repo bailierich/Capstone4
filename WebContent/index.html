@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Capstone4</title>
+</head>
+<body>
+
+
+	<h2>Novas Resale Shop</h2>
+<table>
+	<tr>
+		<th>Product Image</th>
+		<th>Brand Name</th>
+		<th>Description</th>
+		<th>Price</th>
+		<th></th>
+	</tr>
+	<tr>
+		<td><img src="resources/redbottoms.jpg"></td>
+		<td>Christians Louboutins Heels</td>
+		<td>Black Pigalle; GOOD CONDITION</td>
+		<td>695.00</td>
+		<td><input type="button" value="Add To Cart" onclick="addToCart('Christians Louboutins Heels', 695)" /></td>
+	</tr>
+	<tr>
+		<td><img src="resources/DolceandGabbanaHeels.jpg"></td>
+		<td>Dolce and Gabbana Wedges</td>
+		<td>Leapard Print Wedge; BRAND NEW</td>
+		<td>2895.00</td>
+		<td><input type="button" value="Add To Cart" onclick="addToCart('Dolce and Gabbana Wedges', 2895)" /></td>
+	</tr>
+	<tr>
+		<td><img src="resources/AlexanderMcqueenSneakers.jpg"></td>
+		<td>Alexander Mcqueen Sneakers</td>
+		<td>Leather Lace Up Sneakers; BRAND NEW</td>
+		<td>500.00</td>
+		<td><input type="button" value="Add To Cart" onclick="addToCart('Alexander Mcqueen Sneakers', 500)" /></td>
+	</tr>
+	<tr>
+		<td><img src="resources/FendiSneaker.jpg"></td>
+		<td>Fendi Sneakers</td>
+		<td>White Leather Sneakers; BRAND NEW</td>
+		<td>895.00</td>
+		<td><input type="button" value="Add To Cart" onclick="addToCart('Fendi Sneakers', 895)" /></td>
+	</tr>
+</table>
+<input type="button" value="Check-Out" onclick="printCart()" />
+
+
+<p id="cartNames"></p>
+<p id="cartPrices"></p>
+
+<p id="finalCart"></p>
+
+
+<script src="script.js"></script>
+</body>
+</html>
